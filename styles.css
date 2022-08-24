@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: #B5D8CC;
+}
+
+.header {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    background-color: #89A7A7;
+    color: white;
+    padding: 10px 0;
+}
+
+.main {
+    text-align: center;
+}
+
+#btn1 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #B5D8CC;
+    background-color: #8A7090;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+#btn1:hover {
+    background-color: #8A7090;
+}
+  
+#btn1:active {
+    background-color: #8A7090;
+    color: #8D3B72;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#btn2 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #B5D8CC;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+#btn2:hover {
+    background-color: red;
+}
+  
+#btn2:active {
+    background-color: red;
+    color: #8D3B72;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#num {
+    font-size: 50px;
+    padding: 50px 0;
+}
