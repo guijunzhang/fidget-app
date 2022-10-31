@@ -1,14 +1,28 @@
+:root {
+    --background-color: #B5D8CC;
+    --header-color: #89A7A7;
+}
+
+
 body {
     margin: 0;
-    background-color: #B5D8CC;
+    background-color: var(--background-color);
+}
+
+nav {
+    display: flex;
+    background-color: var(--header-color);
+    padding: 10px 10px;
 }
 
 .header {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
-    background-color: #89A7A7;
     color: white;
-    padding: 10px 10px;
+    flex-grow: 5;
+}
+.items {
+    flex-grow: 1;
 }
 
 .main {
@@ -29,7 +43,7 @@ body {
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: #B5D8CC;
+    color: var(--background-color);
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
