@@ -2,29 +2,37 @@
     --background-color: #B5D8CC;
     --header-color: #89A7A7;
 }
-
-
 body {
     margin: 0;
     background-color: var(--background-color);
 }
-
 nav {
     display: flex;
-    background-color: var(--header-color);
-    padding: 10px 10px;
-}
-
-.header {
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: 'Playfair Display';
+    font-size: 20px;
     color: white;
-    flex-grow: 5;
+    background-color: var(--header-color);
+    padding: 1rem;
 }
-.items {
-    flex-grow: 1;
+a {
+    color: white;
+    text-decoration: none;
 }
-
+a:hover {
+    text-decoration: underline;
+}
+.header {
+    font-size: 50px;
+}
+.acts {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
 .main {
     text-align: center;
 }
