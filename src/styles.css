@@ -24,6 +24,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.container {
+    animation: transitionIn 1s;
+}
 .header {
     font-size: 50px;
 }
@@ -36,7 +39,11 @@ a:hover {
 .main {
     text-align: center;
 }
-
+.match-game {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
 .fidget-clicker {
     text-align: center;
 }
@@ -80,4 +87,14 @@ a:hover {
 #num {
     font-size: 50px;
     padding: 50px 0;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
