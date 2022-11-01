@@ -38,10 +38,13 @@ a:hover {
 }
 .main {
     text-align: center;
+    animation: transitionIn 1s;
 }
 .match-game {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
     padding-top: 5em;
 }
 .fidget-clicker {
@@ -83,7 +86,6 @@ a:hover {
     background-color: #89A7A7;
     text-decoration: none;
 }
-
 #num {
     font-size: 50px;
     padding: 50px 0;
