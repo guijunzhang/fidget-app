@@ -13,12 +13,12 @@ nav {
     justify-content: space-between;
     font-family: 'Playfair Display';
     font-size: 20px;
-    color: white;
+    color: black;
     background-color: var(--header-color);
     padding: 1rem;
 }
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 a:hover {
