@@ -24,6 +24,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+img {
+    height: 475px;
+    width: auto;
+    border: 3px solid black;
+    box-shadow: 5px 10px 8px #888888;
+}
 .container {
     animation: transitionIn 1s;
 }
@@ -40,6 +46,12 @@ a:hover {
     text-align: center;
     animation: transitionIn 1s;
 }
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
 .match-game {
     display: flex;
     flex-direction: column;
