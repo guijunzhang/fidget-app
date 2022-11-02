@@ -30,6 +30,9 @@ img {
     border: 3px solid black;
     box-shadow: 5px 10px 8px #888888;
 }
+iframe {
+    border: 3px solid var(--header-color);
+}
 .container {
     animation: transitionIn 1s;
 }
