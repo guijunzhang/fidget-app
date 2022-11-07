@@ -1,5 +1,5 @@
 # Fidget-App
-Fidget games designed to help students with ADHD. Project for FSE100.
+Fidget games designed to help stroke patients that are recovering and toddlers to improve in their motor skills early on in their life. Project for FSE100.
 # Credit
 |Work|Contributor|
 |---|---|
