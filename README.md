@@ -20,6 +20,6 @@ Click the button "Click!!!" will increase the number and click the button "Reset
 ## Match Game
 Click on a box and the exercise will show another box in red before disappearing. Click on the disappeared red box to match the box. Exercise can go on forever.
 ## Connect the Dots
-Drag the points to the corresponding numbers in ascending order. The goal is to fully connect all dots.
+Click the points in consecutive. The goal is to fully connect all dots.
 ## Circles of Life
 Press and hold the mouse button until satisfied, then release to create a circle. To remove a circle, click on the circle that the user intend to delete.
